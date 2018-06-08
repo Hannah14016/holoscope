@@ -11,7 +11,7 @@
         </header>
         <wrapper>
             あなたの星座は？
-                <form action = "fortune.php" method ="get">
+                <form action = "holoscope.php" method ="get">
                 <input type="text" name="holoscope">
                 <input type="submit" value="占う">
                 </form>
