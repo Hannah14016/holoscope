@@ -27,11 +27,14 @@
      }
      
      $rank = mt_rand(1, 12);
-     echo $holoscope . "のあなたの運勢は…" .  $rank . "位です";
+     echo $holoscope . "のあなたの運勢は…" .  $rank . "位です" . PHP_EOL;
      
      if($rank == 1) {
          echo "絶好調";
      }
+       elseif (2 <= $rank && $rank <= 11) {
+          echo "まあまあ";
+      }
      else {
          echo "残念。また明日";
      }
